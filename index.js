@@ -71,7 +71,8 @@ server.listen(port, function check (error) {
         console.error('Error: ', error);
     }
     else {
-        console.log('Server is listening at http://localhost:3001');
+        console.log('Server is listening at http://localhost:3000');
+        console.log ("hello server");
         
     }
 });
